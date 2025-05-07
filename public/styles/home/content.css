@@ -1,0 +1,29 @@
+.title-page-logo {
+    background-color: var(--uni-dark);
+    padding: 10px;
+    border-radius: 17px;
+    opacity: 0.9;
+}
+
+.home-content-background {
+    background-color: var(--uni-dark);
+    opacity: 0.75;
+    border-radius: 13px;
+}
+
+.home-content-container {
+    color: var(--uni-white);
+    text-align: center;
+}
+
+.home-content-container p {
+    font-size: 20px;
+}
+
+.hi {
+    font-size: 21px;
+}
+
+.intro-img {
+    border-radius: 10px;
+}

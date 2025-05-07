@@ -1,0 +1,6 @@
+<%- include("partials/header.ejs") %>
+<link rel="stylesheet" href="styles/pp/layout.css">
+<link rel="stylesheet" href="styles/pp/content.css">
+
+
+<%- include("partials/footer.ejs") %>

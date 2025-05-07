@@ -1,0 +1,12 @@
+.faq-background {
+    background-color: var(--uni-dark);
+    opacity: 0.7;
+}
+
+.faq-container-container {
+    color: var(--uni-white);
+}
+
+.faq-container li {
+    font-size: 20px;
+}

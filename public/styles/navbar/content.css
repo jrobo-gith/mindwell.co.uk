@@ -1,0 +1,31 @@
+:root {
+    --uni-white: #F2F2F2;
+    --uni-dark: #2B2B2B;
+    --uni-dark-trans: rgba(43, 43, 43, 0.95);
+    --uni-font: "DM Serif Display";
+}
+
+.hamburger-container {
+    background-color: var(--uni-dark);
+}
+
+.hamburger-container ul {
+    list-style-type: none;
+}
+
+.hamburger-container a {
+    text-decoration: none;
+    color: var(--uni-white);
+    font-size: 32px;
+    font-family: var(--uni-font);
+
+    letter-spacing: 1px;
+}
+
+.hamburger-container img {
+    height: 66.25px;
+}
+
+.navbar-mobile {
+    background-color: var(--uni-dark-trans);
+}

@@ -1,0 +1,23 @@
+ISSUES
+1. Incorporate universal classes to make things like bulky text font size, color, etc consistent
+2. Images loading slower than browser loading
+3. Sizing will be screwed up if I change to other device rn.
+4. When I click the other part of the screen when the navbar is showing, i want the navbar to disappear.
+
+TODO:
+    - Complete Contact Page
+        - Give it background
+        - Give all boxes appropriate sizes (screen relative sizes)
+        - Add text mum wants to add to the top
+    - Get Contact Form to work
+    - Easy JS for Home, About and Fees (Appear text)
+    - Implement Video for Home
+    - Difficult JS for Benefits
+    - Complete FAQs Page
+    - Difficult JS for FAQs
+    - PORT TO DESKTOP
+    - Make sure everything's adaptive for different screen sizes (Should be anyway ish)
+
+
+TODO DONE:
+ - Header gray could be a little transparent

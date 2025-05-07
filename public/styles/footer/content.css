@@ -1,0 +1,28 @@
+.footer-container {
+    background-color: var(--uni-dark);
+    color: var(--uni-white);
+}
+
+.first-step-footer {
+    font-size: 22px;
+}
+
+.email-footer {
+    font-size: 18px;
+}
+
+.nav-footer li {
+    margin-right: 1vh;
+}
+
+.nav-footer a {
+    text-decoration: none;
+    color: var(--uni-white);
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+.tos-container {
+    background-color: black;
+    font-size: 12px;
+}

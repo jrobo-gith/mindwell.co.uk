@@ -1,0 +1,22 @@
+.about-background {
+    background-color: var(--uni-dark);
+    opacity: 0.6;
+}
+
+
+.qualifications-container h3 {
+    font-size: 36px;
+}
+.qualifications-container li {
+    font-size: 20px;
+}
+
+
+
+.bacp-container img {
+    height: 52px;
+}
+
+.bacp-container p {
+    margin-top: 1vh;
+}

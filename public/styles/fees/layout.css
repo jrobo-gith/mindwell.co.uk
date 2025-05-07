@@ -1,0 +1,25 @@
+.faq-background {
+    position: absolute;
+    height: 90vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+.faq-container-container {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 14vh;
+    text-align: center;
+}
+
+.faq-container {
+    width: 80vw;
+    height: 54vh;
+}
+
+.faq-container li {
+    text-align: left;
+    margin-top: 2vh;
+}
+
