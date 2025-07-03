@@ -1,0 +1,40 @@
+h1 {
+    font-weight: 100;
+    font-size: 3rem;
+    font-family: var(--font-display);
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 1.5rem;
+    font-family: var(--font-display);
+}
+
+.title-underline {
+    background-color: var(--font-color);    
+}
+
+.hero-container {
+    background-color: var(--background-color);
+}
+
+.hello-message {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: var(--font-display);
+}
+
+.consult-button {
+    background-color: #8fa059;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(5px 10px var(--background-color));
+    text-decoration: none;
+    font-size: 1.1rem
+}
+
+
+
+

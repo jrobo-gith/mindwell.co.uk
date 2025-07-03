@@ -1,0 +1,12 @@
+.page-container {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.qualified-text {
+    font-weight: 100;
+}

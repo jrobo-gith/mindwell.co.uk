@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.background-container {
+    display: flex;
+    justify-content: center;
+}
+
+.forest-background {
+    position: fixed;
+    height:100vh;
+    z-index: -1000;
+}
+
+.brrgrr {
+    position: fixed;
+    z-index: 1001;
+    top: 2vh;
+    left: 85vw;
+}
+
+.brrgrr div {
+    margin-top: 0.2rem;
+    height: 0.3rem;
+    width: 10vw;
+    border-radius: 1px;
+}
+
+.nav-menu {
+    width: 95vw;
+    height: 100vh;
+    position: fixed;
+    right: -95vw;
+    top: 0px;
+    z-index: 1000;
+    opacity: 0%;
+
+    transition: right 0.6s ease, opacity 0.5s ease;
+
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 5vh;
+
+    border-radius: 10px;
+}
+
+.show {
+    right: 0px;
+    opacity: 100%;
+    transition: right 0.6s ease, opacity 0.5s ease;
+}
+
+.navbar-title{
+    width: 80%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 10vh;
+}
+
+.underline-navbar {
+    width: 70%;
+    height: 0.2vh;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding: 0px 5vw 0px 5vw;
+    border-radius: 10px;
+    margin-top: 2vh;
+}
+
+.footer-container img {
+    width: 80vw;
+    border-radius: 20px;;
+}
+
+.footer-container h3 {
+    font-size: 1rem;
+}
+.tcs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 2vw 0px 2vw;
+}

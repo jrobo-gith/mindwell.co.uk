@@ -1,0 +1,68 @@
+.front-page-container {
+    height: 100vh;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 15vh;
+    width: 70vw;
+}
+
+.title-box {
+    position: absolute;
+    height: 12vh;
+    width: 70vw;
+
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.title-underline {
+    height: 0.2vh;
+    width: 80%;
+}
+
+.hero-container {
+    margin: 0px 5vw 0px 5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+
+    border-radius: 20px;
+}
+
+.hero-container * {
+    margin: 0px 5vw 0px 5vw;
+    text-align: center;
+}
+
+.front-photo {
+    width: 55vw;
+    border-radius: 5px;
+}
+
+.consult-button {
+    height: 5vh;
+    width: 40vw;
+
+    border-radius: 40px;
+}
+
+.consult-button:hover {
+    height: 6vh;
+    width: 42vw;   
+}
+
+.placeholder {
+    margin-top: 5vh;
+}

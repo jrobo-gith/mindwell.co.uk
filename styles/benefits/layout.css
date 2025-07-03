@@ -1,0 +1,64 @@
+.page-container {
+    width: 100vw;
+}
+
+h1 {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.benefits-prefix {
+    margin: 2vh 5vw 0px 5vw;
+    text-align: center;
+}
+
+.benefit {
+    text-align: center;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefit-title {
+    margin-bottom: 2vh;
+}
+
+.benefit img {
+    border-radius: 10px;
+    width: 70vw;
+}
+
+.image-container {
+    position: relative;
+    width: 80vw;
+}
+
+.benefit p {
+    position: absolute;
+    top: 0px;
+    padding: 0.8vh;
+}
+
+/* ------ JAVASCRIPT ------ */
+
+.show-picture {
+    opacity: 100%;
+    transition: opacity 0.3s ease;
+}
+
+.hide-picture {
+    opacity: 0%;
+    transition: opacity 0.3s ease;
+}
+
+.show-text {
+    opacity: 100%;
+    transition: opacity 0.3s ease;
+}
+
+.hide-text {
+    opacity: 0%;
+    transition: opacity 0.3s ease;
+}
