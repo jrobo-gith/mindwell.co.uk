@@ -1,0 +1,43 @@
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form form {
+    height: 82vh;
+    margin-top: 12vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form * {
+    margin-top: 1vh;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-top: 0.5rem;
+  padding: 0.8rem;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+}

@@ -4,6 +4,10 @@
     background-color: var(--background-color);
 }
 
+.page-title {
+    margin-bottom: 12vh;
+}
+
 li {
     margin: 5vh 10vw 0px 10vw;
     font-size: 1.4rem;
