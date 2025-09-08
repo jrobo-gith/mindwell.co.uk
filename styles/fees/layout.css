@@ -4,11 +4,6 @@
     background-color: var(--background-color);
 }
 
-h1 {
-    text-align: center;
-    margin-top: 10vh;
-}
-
 li {
     margin: 5vh 10vw 0px 10vw;
     font-size: 1.4rem;

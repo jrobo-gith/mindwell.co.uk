@@ -2,11 +2,6 @@
     width: 100vw;
 }
 
-h1 {
-    margin-top: 10vh;
-    text-align: center;
-}
-
 .benefits-prefix {
     margin: 2vh 5vw 0px 5vw;
     text-align: center;
@@ -14,7 +9,7 @@ h1 {
 
 .benefit {
     text-align: center;
-    margin-top: 20vh;
+    margin-top: 12vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
