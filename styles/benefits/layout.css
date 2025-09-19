@@ -9,7 +9,8 @@
 
 .benefit {
     text-align: center;
-    margin-top: 12vh;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,7 +34,7 @@
 .benefit p {
     position: absolute;
     top: 0px;
-    padding: 0.8vh;
+    padding: 0.0vh;
 }
 
 /* ------ JAVASCRIPT ------ */

@@ -2,7 +2,7 @@
     background-color: var(--background-color);
 }
 
-.contact-form label {
+/* .contact-form label {
     font-weight: bold;
     color: var(--font-color);
 }
@@ -30,4 +30,4 @@
 
 .contact-form button:hover {
   background: #0056b3;
-}
+} */
