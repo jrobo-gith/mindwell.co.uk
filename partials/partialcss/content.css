@@ -11,20 +11,20 @@
     color: var(--font-color);
 }
 
-body {
-    font-size: 1.1rem;
-}
-
 h1 {
     font-weight: 100;
-    font-size: 3rem;
+    font-size: clamp(3rem, 2vw, 5rem);
     font-family: var(--font-display);
 }
 
 h2 {
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 2vw, 2rem);
     font-family: var(--font-display);
+}
+
+p {
+    font-size: clamp(1rem, 1.5vw, 1.8rem)
 }
 
 .brrgrr div {
@@ -39,7 +39,7 @@ h2 {
 
 .nav-menu a {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw, 2.2rem);
     font-family: var(--font-family);
     margin-right: 2vw;
 }
@@ -56,7 +56,19 @@ h2 {
     background-color: var(--background-color-solid);
 }
 
+.footer-container a {
+    text-decoration: none;
+}
+
+.footer-container h1 {
+    font-size: clamp(2.8rem, 4vw, 6rem);
+}
+
+.footer-container h2 {
+    font-size: clamp(1.5rem, 2vw, 2rem);
+}
+
 .tcs-container {
-    font-size: 0.8rem;
+    font-size: clamp(0.8rem, 1vw, 1rem);
     background-color: black;
 }

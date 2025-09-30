@@ -1,5 +1,32 @@
 .page-container {
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 1500px) {
+    .GRID {
+        display: grid;
+        grid-template-columns: 45vw 45vw;
+        gap: 5vw;
+    }
+
+    .benefit {
+        margin-top: 0px;
+    }
+
+    .benefit img {
+        width: 30vw;
+        max-width: 30vw;
+        height: auto;
+    }
+    .image-container {
+        width: 45vw;
+        max-width: 45vw;
+    }
+
 }
 
 .benefits-prefix {
@@ -9,8 +36,8 @@
 
 .benefit {
     text-align: center;
-    margin-top: 15vh;
-    margin-bottom: 10vh;
+    margin-top: 20vh;
+    margin-bottom: 2vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,12 +50,11 @@
 
 .benefit img {
     border-radius: 10px;
-    width: 70vw;
+    width: 70vw; 
 }
 
 .image-container {
     position: relative;
-    width: 80vw;
 }
 
 .benefit p {

@@ -1,5 +1,4 @@
 var pictures = document.querySelectorAll(".benefit");
-console.log(pictures);
 
 pictures.forEach(picture => {
     picture.addEventListener("click", () => {

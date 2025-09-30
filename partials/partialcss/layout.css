@@ -1,4 +1,4 @@
-div { outline: 1px solid red !important; }
+/* div { outline: 1px solid red !important; } */
 
 
 * {
@@ -6,14 +6,16 @@ div { outline: 1px solid red !important; }
     padding: 0px;
 }
 
-.background-container {
-    position: fixed;
-    z-index: -1000;
+body {
+    background-image: url("/partials/images/sun.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .page-container {
     width: 100vw;
-    padding-bottom: 2vh;
+    padding-bottom: 5vh;
 }
 
 .page-title {
@@ -21,22 +23,18 @@ div { outline: 1px solid red !important; }
     text-align: center;
 }
 
-.forest-background {
-    height: 100vh;
-    width: auto;
-}
-
 .brrgrr {
     position: fixed;
     z-index: 1001;
     top: 2vh;
-    left: 85vw;
+    left: 88vw;
 }
 
 .brrgrr div {
     margin-top: 0.2rem;
     height: 0.3rem;
     width: 10vw;
+    max-width: 4rem;
     border-radius: 1px;
 }
 
@@ -59,14 +57,51 @@ div { outline: 1px solid red !important; }
     border-radius: 10px;
 }
 
+@media only screen and (min-width: 1500px) {
+    .page-container {
+        margin-top: 10vh;
+    }
+
+    .nav-menu {
+        right: 0px;
+        width: 100vw;
+        height: 10vh;
+        
+        opacity: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        border-radius: 0px;
+
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .navbar-title-container {
+        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brrgrr {
+        display: none;
+    }
+}
+
 .show {
     right: 0px;
     opacity: 100%;
     transition: right 0.6s ease, opacity 0.5s ease;
 }
 
-.navbar-title{
-    width: 80%;
+.navbar-title-container {
+    display: flex;
+    align-self: flex-end;
+}
+
+.navbar-title {
+    width: 100%;
     text-align: center;
 
     display: flex;
@@ -77,7 +112,7 @@ div { outline: 1px solid red !important; }
 }
 
 .underline-navbar {
-    width: 70%;
+    width: 80%;
     height: 0.2vh;
 }
 
@@ -86,7 +121,7 @@ div { outline: 1px solid red !important; }
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2vh;
+    gap: 4vh;
     padding: 0px 5vw 1vh 5vw;
     border-radius: 10px;
     margin-top: 2vh;
@@ -98,20 +133,22 @@ div { outline: 1px solid red !important; }
     border-radius: 10px;
 }
 
-.footer-container a {
-    text-decoration: none;
-}
-
-.footer-container h1 {
-    font-size: 2.5rem;
-}
-
-.footer-container h3 {
-    font-size: 1.5rem;
-}
-
 .tcs-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+@media (min-width: 1500px) {
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 20vh;
+    }
+
+    .footer-container img {
+        width: clamp(20rem, 15vw, 20rem);
+        height: auto;
+    }
 }

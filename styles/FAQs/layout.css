@@ -5,7 +5,7 @@
 .questions-container {
     margin-top: 7vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     gap: 5vh;
 }
@@ -17,6 +17,8 @@
 .question {
     margin: 0px 7vw 0px 7vw;
     padding: 1vh 5vw 1vh 5vw;
+
+    width: 80%;
 }
 
 /* ---- JAVASCRIPT ---- */
