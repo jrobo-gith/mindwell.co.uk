@@ -1,10 +1,12 @@
 .front-page-container {
     height: 100vh;
-    width: auto;
+    width: 100vw;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: relative;
 }
 
 .title-container {
@@ -12,6 +14,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 
     height: 15vh;
     max-width: 25vw;
@@ -20,8 +23,7 @@
 .title-box {
     position: absolute;
     height: clamp(5rem, 12vh, 18rem);
-    width: clamp(5rem, 65vw, 22rem);
-
+    width: clamp(5rem, 65vw, 20rem);
 
     border-radius: 20px;
     z-index: -1;
@@ -33,7 +35,8 @@
 }
 
 .hero-container {
-    margin: 0px 5vw 0px 5vw;
+    margin: 2vh 5vw 0px 5vw;
+    padding-bottom: 5vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -64,15 +67,4 @@
 .consult-button:hover {
     height: 6vh;
     width: 42vw;   
-}
-
-.placeholder {
-    margin-top: 5vh;
-}
-
-.placeholder-video {
-    width: 55vw;
-    max-width: 750px;
-    border-radius: 5px;
-    margin-bottom: 5vh;
 }

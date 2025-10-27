@@ -8,6 +8,6 @@ questions.forEach(question => {
 })
 
 function toggleText(text) {
-    text.classList.toggle("hide-content");
-    text.classList.toggle("show-content");
+    text.classList.toggle("hide-text");
+    text.classList.toggle("show-text");
 }

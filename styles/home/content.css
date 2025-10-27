@@ -20,7 +20,7 @@
     text-align: center;
     filter: drop-shadow(5px 10px var(--background-color));
     text-decoration: none;
-    font-size: clamp(1.2rem, 1.5vw, 1.8rem)
+    font-size: clamp(1.1rem, 1.3vw, 1.7rem)
 }
 
 
